@@ -1,0 +1,17 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.package-img {
+  height: 20rem;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.link:hover {
+  color: coral;
+  font-weight: 900;
+}

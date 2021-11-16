@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carattere&family=Lobster+Two:ital,wght@1,700&display=swap");
+.logo {
+  font-family: "Lobster Two", cursive;
+}
+.team {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.showcase {
+  min-height: 300px;
+  background: url(https://m.southalltravel.co.uk/assets/images/tours/worldwide-tour-st.jpg)
+    center center / cover;
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.showcase::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+  z-index: -1;
+}

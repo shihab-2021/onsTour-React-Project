@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+.heading {
+  font-size: 70px;
+  font-weight: 1000;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.showPopDestination1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.showPopDestination2 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 35px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.img-opacity img {
+  opacity: 0.5;
+}
+
+.img-opacity:hover img {
+  opacity: 1;
+}
+@media only screen and (max-width: 992px) {
+  .showPopDestination1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .heading {
+    font-size: 40px;
+    font-weight: 1000;
+  }
+}
