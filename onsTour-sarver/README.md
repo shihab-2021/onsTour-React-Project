@@ -1,6 +1,6 @@
 # onsTour project server side
 
-This project's live website link [onsAuto](https://onstour-e8adb.web.app/).
+This project's live website link [onsTour](https://onstour-e8adb.web.app/).
 
 ## About This Project Server Side
 
