@@ -37,4 +37,8 @@ If the user want to register so he/she can go to Register page to register.
 
 Dashboard page have all the booking data. It show booking package with the client name and email.
 
+### `Add Package`
+
+To add new package in database there is a page to add package.
+
 Thank You.
